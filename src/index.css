@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,75 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+*{
+  margin: 0;
+  padding: 0;
 }
+
+.container{
+  /* background:linear-gradient(to right bottom,rgb(183, 145, 159),rgb(80, 80, 116)); */
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.appwrapper{
+  background-color: rgb(58, 11, 60);
+  min-height: 450px;
+  /* min-height: 650px; */
+  padding: 120px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  box-shadow: 3px 6px 40px rgb(245, 5, 5);
+  margin-bottom: 10px;
+}
+.header h1 {
+  color: antiquewhite;
+  text-align: center;
+  margin: 30px 0;
+}
+.task-input{
+margin: 20px;
+padding: 20px;
+border-radius: 20px;
+
+}
+.button-add{
+
+    /* padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: right;
+    display: inline-flex */
+    border: none;
+    color: rgb(247, 5, 5);
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50px;
+ 
+  }
+  .button{
+    border: none;
+    color: rgb(49, 5, 247);
+    background-color: rgb(187, 255, 0);
+    padding: 8px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  .todo-list{
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* border-radius: 20px;  */
+  }
+  
