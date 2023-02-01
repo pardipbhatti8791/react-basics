@@ -1,3 +1,4 @@
+import Todos from "./shared/Todos";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
       </header>
+
+      <Todos />
     </div>
   );
 }
